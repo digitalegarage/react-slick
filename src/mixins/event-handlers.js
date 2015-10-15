@@ -57,9 +57,6 @@ var EventHandlers = {
     if (!this.state.dragging) {
       return;
     }
-    if (this.state.animating) {
-      return;
-    }
     var swipeLeft;
     var curLeft, positionOffset;
     var touchObject = this.state.touchObject;
